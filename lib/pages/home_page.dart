@@ -23,7 +23,7 @@ class HomePage extends StatelessWidget {
               ],
             ),
             Positioned(
-              top: MediaQuery.of(context).size.height / 9,
+              top: MediaQuery.of(context).size.height / 7.5,
               left: 0,
               right: 0,
               child: Column(
@@ -34,7 +34,7 @@ class HomePage extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 32,
+                      fontSize: 22,
                       fontWeight: FontWeight.bold,
                       shadows: [
                         Shadow(
